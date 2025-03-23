@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10px;
+    color: rgb(36, 36, 36);
+}
+header{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+
+.menu{
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    top:1rem;
+    left: 1rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+    display: none;
+    z-index:1000;
+}
+.menu i.icono{
+    font-size: 3.5rem;
+
+}
+.icono{
+    display:none;
+    cursor: pointer;
+}
+nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(0,0,0.75);
+    z-index: 1000;
+}
+.logo-pasteleria{
+    width: 5rem;
+    box-sizing: content-box;
+    padding-left: 3rem;
+
+}
+.logo-pasteleria img{
+    display: block;
+    width: 100%;
+}
+a:hover{
+    text-decoration: none;
+    color:#302f2f;
+
+}
+nav ul{
+    height: 8rem;
+    list-style: none;
+    display: flex;
+    font-size: 1.5rem;
+}
+nav ul li{
+    padding:0.3rem;
+    line-height: 8rem;
+    transition: background-color .5s;
+}
+nav ul li:hover{
+    background-color: rgb(248, 220, 220);
+    
+}
+.usuario img{
+    width: 30px;
+    margin: 5px;
+}
+.carrito img{
+    width: 30px;
+    margin: 5px;
+}
+
+.barra-navderecha ul li{
+    border-right: 1px rgba(0,0,0.75) ;
+}
+.barra-navderecha ul li:nth-child(1){
+    border-left: 1px rgba(0,0,0.75);
+
+}
+.barra-navderecha ul li:last-child{
+    border-right: none;
+}
+.barra-navderecha i{
+    margin-right: 1rem;
+}
+.barra-navderecha i:first-child{
+    margin-right: 1rem;}
+
+
+.jumbotron{
+    background-image:url(img/header.jpg);
+    color:#fff;
+    background-size:cover;
+    min-height: 40px;
+    padding-top: 100px;
+    background-position:70%;
+    height:80vh;
+}
+.content-center{
+    margin:0 auto 80px auto;
+    text-align: center;
+}
+.btn{
+    background-color: rgb(248, 220, 220);
+    font-size: 18px;
+    padding: 12px 50px;
+    border: 2px solid #302f2f;
+    border-radius: 4px;
+    cursor:pointer ;
+
+}
+.btn{
+    transition: 0.4s;
+}
+.btn:hover{
+    background-color:#dad4d4;
+    color: #fff;
+}
+
+.seccion2{
+    width: 95%;
+    padding: 5%;
+    margin: 0 auto;
+}
+
+.tarjeta{
+    width: 30%;
+    display: inline-block;
+    margin-right: 20px;
+    border: 1px solid #888585;
+    border-radius: 5px;
+    box-shadow: 7px 9px 17px 0px rgba( 0,0,0,0.75);
+}
+
+.imagen-card{
+    width:100%;
+    height: 300px;
+}
+
+.contenedor-tarjetas{
+    padding: 30px 50px;
+    text-align: center;
+}
+
+.titulo-tarjeta{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.texto{
+    margin: 10px 0;
+}
+
+.contenido{
+    padding: 120px 90px;
+    text-align: center;
+}
+
+.titulo{
+    margin-bottom: 40px;
+}
+.seccion3{
+    width: 95%;
+    padding: 5%;
+    margin: 0 auto;
+}
+
+.tarjeta{
+    width: 30%;
+    display: inline-block;
+    margin-right: 20px;
+    border: 1px solid #888585;
+    border-radius: 5px;
+    box-shadow: 7px 9px 17px 0px rgba( 0,0,0,0.75);
+}
+
+.imagen-card{
+    width:100%;
+    height: 300px;
+}
+
+.contenedor-tarjetas{
+    padding: 30px 50px;
+    text-align: center;
+}
+
+.titulo-tarjeta{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.texto{
+    margin: 10px 0;
+}
+
+.contenido{
+    padding: 120px 90px;
+    text-align: center;
+}
+
+.titulo{
+    margin-bottom: 40px;
+}
+
+
+footer{
+    background-image: radial-gradient(circle at 50% -20.71%, #c7edff 0, #cbecff 4.55%, #d0eaff 9.09%, #d6e9ff 13.64%, #dbe7ff 18.18%, #e1e6ff 22.73%, #e6e4ff 27.27%, #ece3ff 31.82%, #f1e2ff 36.36%, #f6e0ff 40.91%, #fbdffd 45.45%, #ffdef9 50%, #ffddf5 54.55%, #ffdcf1 59.09%, #ffdcec 63.64%, #ffdce8 68.18%, #ffdce4 72.73%, #ffdcdf 77.27%, #ffdcdb 81.82%, #ffddd7 86.36%, #ffddd3 90.91%, #ffded0 95.45%, #ffdfcd 100%);
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.logo img{
+    width: 80px;
+    padding:5px;
+}
+.contenedor-pie{
+    margin: auto;
+    width: 1200px;
+    display:flex;
+    color:white;
+}
+.col1{
+    width: 500px; 
+}
+.col1 h1{
+    margin-bottom: 15px;
+}
+.col1 p{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.col2{
+    width: 450px;
+}
+.col2 img{
+    width: 40px;
+    margin: 5px;
+}
+ .col2 .insta{ 
+     display: flex;
+     align-items: center;
+}
+.col2 .fb{
+     display: flex;
+     align-items: center;
+}
+.col2 .twitter{
+    display: flex;
+     align-items: center;
+}
+.col2 h1{
+    margin-bottom: 15px;
+}
+.col2 p{
+    margin-bottom: 1px;
+    font-size: 1rem;
+}
+.col3{
+    width: 350px;
+}
+.col3 h1{
+    margin-bottom: 15px;
+}
+.col3 p{
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+.final{
+    margin: auto;
+     width: 1200px;
+    height: 80px;
+
+}
+.copy{
+    height: 100px;
+    float: left;
+    margin-top: 50px;
+    text-align: left;
+}
+.politic{
+    width: 600px;
+    height: 100px;
+    float: right;
+    margin-top: 50px;
+    text-align: left;
+}
+
+/**@media screen and (max-width:400px;){
+    header{
+        flex-direction:column ;
+    }header img{
+        width: 200px;
+        height: 200px;
+    } menu{
+        flex-direction: column;
+    } nav{
+        flex-direction: column;
+    } 
+    nav ul li{
+        font-size: 18pt;
+        text-align: center;
+        height: 30px;
+    } .seccion2{
+        flex-direction: column;
+
+    }.seccion2 .tarjeta{
+        width: 100%;
+        flex-direction: column;
+    }footer{
+        flex-direction: column;
+
+    }
+
+   
+}*/
